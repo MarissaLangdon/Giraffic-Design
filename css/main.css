@@ -1,0 +1,112 @@
+nav img{
+	height: 35px;
+}
+ .home .top-bar-section li:not(.has-form) a:not(.button){
+	background-color: transparent;
+	background-image: none;
+	font-family: 'Nunito', sans-serif;
+}
+
+ .home .top-bar{
+	background-color: transparent;
+	background-position: center bottom;
+	background-image: none;
+
+}
+
+
+.top-bar-section li:not(.has-form) a:not(.button){
+	background-image: url("../img/gdfootbg.jpg");
+	font-family: 'Nunito', sans-serif;
+}
+
+.top-bar{
+	background-image: url("../img/gdfootbg.jpg");
+	background-position: center bottom;
+
+}
+
+
+
+p, h4, li a{
+	font-family: 'Nunito', sans-serif;
+}
+
+h1{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+}
+
+.product-grid h4{
+	font-size: 1.3rem;
+}
+
+.topper{
+	height: 200px;
+}
+
+.topper .logo{
+	height: 100px;
+	position: absolute;
+	right: 40px;
+	top: 70px;
+}
+
+.home {
+	background-image: url("../img/bgtall.jpg");
+	background-size: cover;
+	background-position: absolute;
+/*	top: -45px;
+	z-index: -1;*/
+
+}
+
+.bord{
+	border: 20px solid white;
+}	
+
+
+/*FOOTER*/
+
+footer{
+	background-image: url("../img/gdfootbg2.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 20px;
+	color: white;
+	font-family:'Nunito', sans-serif;
+	font-weight: 400;
+
+}
+
+
+footer p {
+	line-height: 1;
+	padding: 0;
+	font-size: .85rem;
+}
+
+footer .text-right{
+	line-height: 1.2;
+	font-size: 1rem;
+	padding: 0;
+}
+
+footer img{
+	height: 80px;
+	padding: 0 0 20px 0;
+
+}
+
+footer a{
+	color: white;
+	font-size: 1.6rem;
+}
+
+footer .para, .text-center{
+	padding: 0 13rem ;
+}
+
+
+
+
