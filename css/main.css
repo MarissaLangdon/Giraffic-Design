@@ -2,15 +2,14 @@ nav img{
 	height: 35px;
 }
  .home .top-bar-section li:not(.has-form) a:not(.button){
-	background-color: transparent;
-	background-image: none;
+	background-image: url("../img/head.jpg");
+	background-position: bottom;
 	font-family: 'Nunito', sans-serif;
 }
 
  .home .top-bar{
-	background-color: transparent;
-	background-position: center bottom;
-	background-image: none;
+	background-image: url("../img/head.jpg");
+	background-position: bottom;
 
 }
 
@@ -18,15 +17,43 @@ nav img{
 .top-bar-section li:not(.has-form) a:not(.button){
 	background-image: url("../img/gdfootbg.jpg");
 	font-family: 'Nunito', sans-serif;
+	letter-spacing: 1px;
 }
 
 .top-bar{
 	background-image: url("../img/gdfootbg.jpg");
 	background-position: center bottom;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button), .top-bar-section li.active:not(.has-form) a:not(.button):hover{
+	background-color:#511e09;
 
 }
 
 
+button,
+.button{
+	background: #511e09;
+	color: white;
+}
+
+button,
+.button:hover{
+	background: #fe9500;
+	color:white; 
+}
+
+button,
+.button .disabled {
+	background: red;
+	color:white; 
+}
+/*.pages{
+	background-image: url("../img/leafbar.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}*/
 
 p, h4, li a{
 	font-family: 'Nunito', sans-serif;
@@ -53,9 +80,11 @@ h1{
 }
 
 .home {
-	background-image: url("../img/bgtall.jpg");
+	background-image: url("../img/bggd.jpg");
 	background-size: cover;
-	background-position: absolute;
+/*	background-position: absolute;
+*/	background-repeat: no-repeat;
+	height: auto;
 /*	top: -45px;
 	z-index: -1;*/
 
@@ -64,6 +93,15 @@ h1{
 .bord{
 	border: 20px solid white;
 }	
+
+.orbit{
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
+}
+aside{
+	padding: 3rem 0;
+	height
+}
 
 
 /*FOOTER*/
@@ -78,7 +116,21 @@ footer{
 	font-weight: 400;
 
 }
+.cart footer{
+	margin-top: 200px;
+}
 
+.cart-grid{
+	font-family:'Nunito', sans-serif;
+}
+
+.cart-grid h1{
+	font-weight: 700;
+}
+
+.cart-grid h4{
+	font-size: 1.3rem;
+}
 
 footer p {
 	line-height: 1;
@@ -103,8 +155,13 @@ footer a{
 	font-size: 1.6rem;
 }
 
-footer .para, .text-center{
-	padding: 0 13rem ;
+.home footer{
+	/*background-image: url("../img/foot.jpg");
+	background-size: cover;
+	background-position: bottom;*/
+	background-image: none !important;
+	background-color: rgba(0,0,0,.2)
+
 }
 
 
